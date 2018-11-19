@@ -1,0 +1,112 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+	<title>Studio Ghibli</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="imgs/icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+    <link rel="stylesheet" href="lean-slider_v1.0/lean-slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="lean-slider_v1.0/lean-slider.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".slider").leanSlider();
+        });
+    </script>
+	<meta charset="utf-8">
+
+</head>
+
+<body>
+	<div class="block">
+		<header>
+			<img class="logo" src="imgs/ghiblilogo.png" alt="Studio Ghibli">
+			
+			<nav> <center>
+				<ul>
+				<li><a href="ghibli.html" title=""><img src="imgs/hr.png" alt="" class="hr" ></a></li>
+				<li><a href="works.html" title=""><img src="imgs/hr1.png" alt="" class="hr" style="padding-right: 35px;"></a></li>
+				<li><a href="#" title=""><img src="imgs/hr2.png" alt="" class="hr" style="padr"></a></li>
+				<li><a href="#" title=""><img src="imgs/hr3.png" alt="" class="hr"></a></li>  <br>
+					
+					<li> <a href="project4.html">Home</a></li>
+					<li> <a href="works.html">Works</a></li>
+					<li> <a href="#">Store</a></li>
+					<li> <a href="#">Media</a></li>
+				</ul>
+			</nav></center>
+		</header>
+
+
+
+
+		<!--<div class="slider">
+        <img id="slide1" src="studio_ghibli.jpg" alt="" styl>
+        <img id="slide2" src="studio.jpg" alt="">
+        <img id="slide3" src="studio1.jpg" alt="">
+        <img id="slide4" src="images/featureImage4.jpg" >
+    </div>//-->
+   <center><div class="block1"> <br>
+ 
+   	<fieldset>
+   		<legend><h3>Store</h3></legend>
+   		
+		<script>
+	var myCenter = new google.maps.LatLng(35.3194048, 139.5511212);
+
+	function init()
+	{
+		var mapProp = {
+			center:myCenter,
+			zoom:21,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+  		};
+
+	var map = new google.maps.Map(document.getElementById("map-ghibli"),mapProp);
+
+	var marker = new google.maps.Marker({
+  		position:myCenter,
+  	});
+	}
+
+	google.maps.event.addDomListener(window, 'load', init);
+		</script>
+	
+	<div style="float: left;">
+		<h5 style="float: left;"><u>Address</u><h5><br>
+		<p style="font-size: 10px;">Kamakura-shi, Kanagawa-ken 248-0006, Japan</p>
+		<h5 style="float: left;"><u>Open Hours</u><h5><br>
+		<p style="font-size: 12px;">10:00-18:00 (Mon-Fri)</p>
+		<h5 style="float: left;"><a href="http://kamakura-info.jp">About</a><h5><br>
+	</div>
+
+	<div id="map-ghibli" style="height: 400px; width: 600px; padding: 0; margin: 0; float: right;"><div>
+	
+   </fieldset> </div>	
+ </center>
+	<center>
+		<footer>
+		<div class="links"> <br>
+			<nav><center>
+				<ul>
+					<li><a href="https://twitter.com/madman" title="" target="_blank" id="foot"><img src="icons/twitter1.png" alt="" class="link" ></a></li>
+					<li><a href="https://www.facebook.com/madman" title="" target="_blank"><img src="icons/face1.png" alt="" class="link"></a></li>
+					<li><a href="https://www.instagram.com/ghibli_official/" title="" target="_blank"><img src="icons/instg.png" alt="" class="link"></a></li>
+					<li><a href="https://www.pinterest.com/search/pins/?q=studio%20ghibli&rs=guide" target="_blank" title=""><img src="icons/ing.png" alt="" class="link"></a></li>
+					<li><a href="http://www.ghibli.jp/" title="" target="_blank"><img src="icons/google.png" alt="" class="link"></a></li>
+				</ul>
+			</center></nav> <br>
+
+
+			</div>
+			<center><script>document.write('&nbsp;&copy;&nbsp;'+(new Date().getFullYear())+'&nbsp;Studio&nbsp;Ghibli&nbsp;Co.,Ltd.&nbsp;All&nbsp;rights&nbsp;reserved.');</script></center>
+
+		</footer>
+	</center>
+
+</body>
+<html>
+
